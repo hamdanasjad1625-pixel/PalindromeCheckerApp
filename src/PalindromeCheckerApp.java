@@ -2,6 +2,7 @@ public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
+
         String word = "madam";
 
         if(word.equals(new StringBuilder(word).reverse().toString())) {
@@ -9,6 +10,9 @@ public class PalindromeCheckerApp {
         } else {
             System.out.println(word + " is not a Palindrome");
         }
+
+        System.out.println("Welcome to Palindrome Checker App");
+
 
     }
 }
